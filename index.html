@@ -10,29 +10,67 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Portfolio 2021</title>
 
-<body> 
-    <div class= "header">
-            <img src="self-pic.JPG" class="rounded float-left" alt="Image" class="img-thumbnail">
-            <h1 class="display-4 ">Hey I'm Vershard, a Full Stack Web Dev</h1>
+<body>
+    <!-- Picture inside of header -->
+    <div class="header">
+        <div class="img-container">
+            <img src="self-pic.JPG" class="img-fluid rounded-circle" alt="Image">
         </div>
-    
+        <h1 class="display-4 container">Hey, I'm Vershard a Full Stack Web Dev</h1>
+    </div>
 
-    <nav class="navbar navbar-light bg-light ">
-        <form class="form-inline"> 
-            <button class="btn btn-outline-primary btn-lg" type="button">About me</button>
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-outline-primary btn-lg" type="button">About Me</button>
             <button class="btn btn-outline-success btn-lg" type="button">Projects</button>
             <button class="btn btn-outline-danger btn-lg" type="button">Contact Me</button>
+        </div>
+    </div>
+    <br>
+    <!-- About Me  -->
+    <div class="container-fluid bg-primary">
+        <h2 class="text-center"> About Me</h2>
+    </div>
+    <!-- Card -->
+    <div class= "container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="richardblandcollege.jpg" class="img-fluid rounded" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
 
-    </nav>
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="UR.jpg" class="img-fluid rounded" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- Projects -->
 
 
-    
 
 
 
-
-
-<div style = "margin-top: 600px;"></div>
+    <div style="margin-top: 600px;"></div>
 </body>
 
 
