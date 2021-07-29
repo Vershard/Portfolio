@@ -1,12 +1,37 @@
-/* .img {
-    float: left;
-    width: 25px;
-    height: 25px;
-    background:white;
+/* Image inside of header */
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img-container {
+    height: 100px;
+  }
+
+  .img-container img {
+    height: 100%; 
+    max-width: 100%; 
+   
+  } 
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
+  /* Buttons */ 
+  .column { 
+display: float-right;
+
+  } 
+
+  /* carousel image */ 
+
+  #carousel {
+    
+    max-width: 100%;
+    height: auto;
+
+
   }
   
-  .header h1 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-  } */
