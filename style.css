@@ -18,7 +18,13 @@
 
 .rounded-circle {
   border-radius: 50%!important;
+} 
+
+#school-image { 
+  display: flex; 
 }
+
+
   /* Buttons */ 
   .column { 
 display: float-right;
